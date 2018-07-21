@@ -6,7 +6,7 @@ labels = [0,0,1,1]
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(features,labels) #find patterns in data
 print clf.predict([[100,3]])
-
+#commentoout
 #	weihgt	texture		label
 #	/		/			/	
 #	150g	bumpy_0		orange_0
